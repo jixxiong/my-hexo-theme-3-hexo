@@ -11,30 +11,30 @@ blog_path: /
 link:
   theme: color # 链接样式，color: 彩色图标  white: 黑白图标
   items:
-    rss: /atom.xml
-    github: https://github.com/yelog
-    facebook: https://www.facebook.com/faker.tops
+    rss: # /atom.xml
+    github: https://github.com/jixxiong
+    facebook: 
     twitter:
     linkedin:
-    instagram: https://www.facebook.com/faker.tops
-    reddit: https://www.reddit.com/user/yelog/
-    weibo: http://weibo.com/u/2307534817
-    jianshu: https://www.jianshu.com/u/ff56736de7cf
-    zhihu: https://www.zhihu.com/people/jaytp/activities
+    instagram: # https://www.facebook.com/faker.tops
+    reddit: # https://www.reddit.com/user/yelog/
+    weibo: # http://weibo.com/u/2307534817
+    jianshu: # https://www.jianshu.com/u/ff56736de7cf
+    zhihu: # https://www.zhihu.com/people/jaytp/activities
     csdn:
-    oschina: https://my.oschina.net/yelog
+    oschina: # https://my.oschina.net/yelog
     juejin:
-    email: jaytp@qq.com
-    qq: 872336115
-    kugou: https://www.kugou.com/
-    neteasemusic: https://music.163.com/#/user/home?id=88151013
+    email: xiongjx751@qq.com
+    qq: 1442071828
+    kugou: # https://www.kugou.com/
+    neteasemusic: # https://music.163.com/#/user/home?id=88151013
 
 ##########多作者模式############
 author:
   on: false
   authors:
-    author1: 阁主
-    author2: 小马哥
+    author1: Jixiang Xiong
+    # author2: 小马哥
 ##############################
 
 # 文章分类设置
@@ -42,12 +42,8 @@ category:
   num: true # 分类显示文章数
   sub: true # 开启多级分类
   sort:
-    - 读书
-    - 工具
-    - 大前端
-    - 后端
     - 数据库
-    - 运维
+    - a
   width:
     lg: 120 # 1468px<屏幕宽度 左侧分类宽度
     md: 100 # 1024px<屏幕宽度<=1468px 左侧分类宽度
@@ -64,7 +60,7 @@ shortcutKey: true
 # 左下角自定义菜单
 menu:
   about:  # '关于' 按钮
-    on: true # 是否显示
+    on: false # 是否显示
     url: /about  # 跳转链接
     type: 1 # 跳转类型 1：站内异步跳转 2：当前页面跳转 3：打开新的tab页
   friend: # '友链' 按钮
@@ -84,9 +80,9 @@ menu:
       type: 3  # 跳转类型 3：打开新的tab页
 
 # 文末声明
-article_txt: 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 jaytp@qq.com
+article_txt: 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 xiongjx751@qq.com
 
-bottom_text: ©2016-2020 Yelog
+bottom_text: ©2023-2023 Jixiang Xiong
 # 自定义页面最下方的站点版权信息
 # 如果不填，则自定义为 ©2017 author (这个author为hexo根目录_config.yml中配置的)
 
@@ -97,7 +93,7 @@ miit:
   url: http://beian.miit.gov.cn/ # 默认链接为 http://beian.miit.gov.cn/
 
 
-reward: true
+reward: false
 # true 开启打赏功能
 
 searchAll: false
@@ -113,7 +109,7 @@ searchAll: false
 copyright: false
 # Copyright info. of post | 文末版权信息
 
-word_count: false
+word_count: true
 # true 开启字数统计
 # 开启此功能需要安装插件 ：在 hexo根目录 执行npm i hexo-wordcount --save
 
@@ -224,7 +220,7 @@ mermaid:
 
 # 友情链接
 friends:
-  叶落阁: http://yelog.org/
+  Jixiang Xiong: http://xiongjx.cn/
 
 ##########评论设置#############
 comment:
